@@ -794,7 +794,8 @@ img {
   transition-timing-function: var(--transition-timing-function);
 }
 
-.galery-item:hover .galery-item-thumb::before {
+.galery-item:hover .galery-item-thumb::before,
+.galery-item:focus .galery-item-thumb::before {
   transform: translateY(0);
 }
 
